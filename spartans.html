@@ -1,44 +1,41 @@
+
+
+
+
+
+
+
+
+
+
+
 <style>
-  body {
+body {
     background-color: black;
   }
-  h1, h2, h3, p, b {
-	  color: black;
-	  padding-left: 60px;
-	 
-	  
-	  }
-  p {
-	  line-height: 2;
-	  }
-  .container {
-	  position: relative;
-      width: 160%;
-      height: 300%;
-      background-size: cover;
-	  background-image: url('parchment copy.png');
-	  }
-  .title {
-	  text-align: left;
-	  display: flex;
-    justify-content: center;
-    align-items: center;
-	  }
-	img {
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh; /* Full viewport height */
+  background-image: url('parchment copy.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+}
+
+.contianer2 { /* Note: Typo in class name */
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  max-width: 800px;
+  padding: 20px;
+  img {
 		width: 30px;
 		}
-		h1 {
-			padding-right: 30px;
-			
-			}
-</style>   
-
-
-<head>
-  <title>Spartans - Clasic Warefare AEA</title>
-  <link rel="icon" href="emblem_spartans.png" type="image/png">
-</head>   
-
+}   
+</style>
 
 
 <div style="display: flex;
@@ -56,21 +53,13 @@
 <a>
 
 </div>
-<br>
-	
-	<div class="title">
-		<h1 style="color: white;">Spartans</h1>
-<img style="width: 100px;" src="emblem_spartans.png">
 
-</div>
+
 
 
 <div class="container">
-	<br>
-		
-
-
-
+  <div class="contianer2"> <!-- Note: Typo in class name -->
+    
 <h2>Civ Bonuses</h2>
 
 <h3>Greek Olympians</h3>
@@ -161,7 +150,7 @@ Agis 33% health and 5 of each resistance</p>
 Helots promote 50% faster to neodamodes</p>
 
 
-<h2>Phase Bonuses</h2>
+<!--<h2>Phase Bonuses</h2>
 <h3>Town Phase bonusses</h3>
 
 <p>structures .5 capture garrison rate<br>
@@ -175,7 +164,6 @@ Champion Spearman +0.5H/P +25 Health<br>
 Infantry 5% more melee dmg<br>
 
 Helot 10% faster train time -125 repeat time</p>
-
 
 
 
@@ -194,7 +182,7 @@ Helot 10% faster train time -125 repeat time<br>
 
 Infantry +0.5P resistances except helots<br>
 
-Leonidas 20% more DMG and double Health</p>
+Leonidas 20% more DMG and double Health</p>-->
 
 <!--<h2>Units</h2>
 
@@ -217,11 +205,9 @@ PERIOECIS KOMH - Perioikoi Camp<br>
 
 
 <h2>Unique Technologies</h2>
-
 <!--<h3>Helot Economy</h3>
 <p> Cost: 300<img src="food.png">  300<img src="wood.png">  150<img src="metal.png">  150<img src="stone.png">  40<img src="time.png">  <img src="village_phase.png"> <br>Helots +100% grain gather rate, +25% wood/metal/stone but champions take 25% longer to train</p>
 -->
-
 <<h3>Krypteia</h3> <p>Cost: 300<img src="food.png">  300<img src="metal.png">  40<img src="time.png">  <img src="town_phase.png"><br>Champions +10% melee/ranged attack damage, heroes 25% melee attack but all infantry 10% more train time and helots 20% less health.</p>
 	
 <!--<h3>XIPHOS (Side Arms)(SKIAS)</h3> 
@@ -261,3 +247,7 @@ Soldiers +1 hack and +1 crush resistance. Champions additional +1 hack resistanc
 </div>
 
 <!--Cost: <img src="food.png">  <img src="wood.png"> <img src="metal.png"> <img src="stone.png">-->
+
+
+  </div>
+</div>   
