@@ -98,6 +98,44 @@ button {
 	width: 10vh;
 	height: 2vh;
 	}
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      
+    }
+
+    
+
+    .dropdown-content {
+	    
+      display: none;
+      position: absolute;
+      background-color: rgb(152, 123, 74);
+      min-width: 160px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+      border-radius: 4px;
+    }
+
+    .dropdown-content button {
+      display: block;
+      background: none;
+      border: none;
+      padding: 10px 16px;
+      width: 100%;
+      text-align: left;
+      cursor: pointer;
+      background-color: rgb(152, 123, 74);
+      
+    }
+
+    .dropdown-content button:hover {
+      background-color: rgb(125, 100, 74);
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
 </style>
 
 <!--174, 158, 127-->
@@ -111,18 +149,32 @@ button {
 <button>ChangeLog</button>
 <a>-->
 
-<a href="athen.html">
+<!--<a href="athen.html">
 <button>Athenians</button>
 <a>
 
 <a href="spartans.html">
 <button>Spartans</button>
-<a>
+<a>-->
 	
 	
 <a href="charts.html">
 <button>Charts</button>
 <a>
+
+<div class="dropdown">
+    <button class="dropbtn">Civs</button>
+    <div class="dropdown-content">
+<a href="athen.html">
+<button>Athenians</button>
+<a>
+<a href="spartans.html">
+<button>Spartans</button>
+<a>
+	
+      <br>
+    </div>
+  </div>
 
 </div>
 
