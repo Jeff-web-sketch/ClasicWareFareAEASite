@@ -37,3 +37,9 @@ body {
   max-width: 800px;
   padding: 20px;
 } 
+.title {
+	  text-align: left;
+	  display: flex;
+    justify-content: center;
+    align-items: center;
+	  }
