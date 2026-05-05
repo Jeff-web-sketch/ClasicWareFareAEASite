@@ -18,7 +18,7 @@ body {
   align-items: left;
   text-align: left;
   max-width: 800px;
-  padding: 50px;
+  padding: 8vh;
   }
   button {
 	background-color: rgb(152, 123, 74);
@@ -81,3 +81,8 @@ body {
     .dropdown:hover .dropdown-content {
       display: block;
     }
+.logo {
+  display: flex;
+  justify-content: right;  /* Centers horizontally */
+  align-items: right;      /* Centers vertically */
+}   
